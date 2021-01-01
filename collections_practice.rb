@@ -31,5 +31,5 @@ def sum_array(array)
 end
 
 def add_s(array)
-  array[0], array[2...] {|word| word + "s"}
+  array[0], array[2..n] {|word| word + "s"}
 end
