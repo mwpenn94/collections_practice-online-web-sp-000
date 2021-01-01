@@ -32,5 +32,5 @@ end
 
 def add_s(array)
   array.collect {|word| word + "s"}
-  #array[1].delete_suffix!("s")
+  array[1].delete_suffix!("s")
 end
