@@ -19,7 +19,7 @@ def reverse_array(array)
 end
 
 def kesha_maker(array)
-  arr.map!.each.with_index { |letter, index| index % 5 == 0 ? letter = "$"}
+  array.map!.each.with_index { |letter, index| index % 5 == 0 ? letter = "$"}
 end
 
 def find_a(array)
