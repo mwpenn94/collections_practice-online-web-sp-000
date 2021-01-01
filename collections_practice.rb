@@ -31,7 +31,7 @@ def sum_array(array)
 end
 
 def add_s(array)
-  array.map {|word| word + "s"}
+  array.collect {|word| word + "s"}
   #array[1].delete_suffix!("s")
   return array
 end
