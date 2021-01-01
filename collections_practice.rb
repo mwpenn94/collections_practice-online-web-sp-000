@@ -31,7 +31,7 @@ def sum_array(array)
 end
 
 def add_s(array)
-  array.collect {|word| word + "s"}
-  array
-  array[1].chop
+  array_new = array.collect {|word| word + "s"}
+  array_new[1].chop
+  return array_new
 end
