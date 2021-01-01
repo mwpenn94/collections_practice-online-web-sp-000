@@ -18,9 +18,9 @@ def reverse_array(array)
    array.reverse
 end
 
-#def kesha_maker(array)
-#  array.each.str(2) = "$"
-#end
+def kesha_maker(array)
+  array.each.str(2) = "$"
+end
 
 def find_a(array)
   array.each.start_with?("a")
