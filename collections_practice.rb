@@ -19,7 +19,7 @@ def reverse_array(array)
 end
 
 def kesha_maker(array)
-  array.Lookingsplit.each {|word| word[2] = "$"}.join(",")
+  array.each {|word| word[2] = "$"}.join(",")
 end
 
 def find_a(array)
