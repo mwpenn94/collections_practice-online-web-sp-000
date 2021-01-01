@@ -32,5 +32,5 @@ end
 
 def add_s(array)
   array.map {|word| word + "s"}
-  array[1].str(-1)  
+  array[1].
 end
